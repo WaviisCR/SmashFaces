@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1>Smash Faces</h1>
+				<p>Conocs bien a tus companeras? Elige tu sede y compruebalo escribiendo su nombre. Tienes cinco chances!</p>
+			</div>	
+		</header>
+		<section>
+			<div class="container">
+				<span>Elige tu sede:</span>
+				<select id="select" class="dropdown">
+					<option value="1">De que pais eres?</option>
+					<option value="2">Perú</option>
+					<option value="3">México</option>
+				</select>
+				<div class="score">Score<span id="Score"> 0 puntos</span></div>
+				<div id="box-faces">
+					<div class="row">
+						<div class="col-md-6">
+							<div id="foto">
+								<!--aqui va la fotgrafia de la coder dependiendo la sede-->
+							</div>
+						</div>
+						<div class="col-md-6">
+							<p>Quien es ella?</p>
+							<input type="text" name="nombre" id="coder-name" class="form-control">
+							<button id="comprobar" class="btn btn-default" type="submit">Comprobar</button>
+							<p id="message"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+			
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/peru.js"></script>
+		<script src="js/mexico.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

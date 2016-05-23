@@ -1,0 +1,18 @@
+.dropdown{
+	display: inline-block;
+	margin:1%;
+	padding: 1%;
+	border: 2px solid silver;
+}
+#coder-name{
+	margin: 1%;
+}
+.score{
+	float: right;
+}
+#box-faces{
+	border: 1px solid pink;
+	border-radius: 5px;
+	margin-top: 2%;
+	padding: 2%;
+}
